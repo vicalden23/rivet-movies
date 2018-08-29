@@ -1,0 +1,376 @@
+{
+  "movies": [
+    {
+      "title": "Pulp Fiction",
+      "mpaa_rating": "R",
+      "director": "Quentin Tarantino",
+      "release_year": 1994,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Casablanca",
+      "mpaa_rating": "PG",
+      "director": "Michael Curtiz",
+      "release_year": 1943,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Interstellar",
+      "mpaa_rating": "PG-13",
+      "director": "Christopher Nolan",
+      "release_year": 2014,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy",
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Sixth Sense",
+      "mpaa_rating": "PG-13",
+      "director": "M. Night Shyamalan",
+      "release_year": 1999,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Back to the Future",
+      "mpaa_rating": "PG",
+      "director": "Robert Zemeckis",
+      "release_year": 1985,
+      "genres": [
+        "Comedy",
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Star Wars",
+      "mpaa_rating": "PG",
+      "director": "George Lucas",
+      "release_year": 1977,
+      "genres": [
+        "Drama",
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Godfather",
+      "mpaa_rating": "R",
+      "director": "Francis Ford Coppola",
+      "release_year": 1972,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Matrix",
+      "mpaa_rating": "R",
+      "director": "Wachowski Brothers",
+      "release_year": 1999,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Deadpool",
+      "mpaa_rating": "R",
+      "director": "Tim Miller",
+      "release_year": 2016,
+      "genres": [
+        "Comedy",
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Terminator 2",
+      "mpaa_rating": "R",
+      "director": "James Cameron",
+      "release_year": 1991,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Jurassic Park",
+      "mpaa_rating": "PG-13",
+      "director": "Steven Spielberg",
+      "release_year": 1993,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy",
+        "Thriller"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Toy Story",
+      "mpaa_rating": "G",
+      "director": "John Lasseter",
+      "release_year": 1995,
+      "genres": [
+        "Animation",
+        "Action/Adventure",
+        "Comedy",
+        "Family",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Alien 3",
+      "mpaa_rating": "R",
+      "director": "David Fincher",
+      "release_year": 1992,
+      "genres": [
+        "Horror",
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Black Panther",
+      "mpaa_rating": "PG-13",
+      "director": "Ryan Coogler",
+      "release_year": 2018,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Good Will Hunting",
+      "mpaa_rating": "R",
+      "director": "Gus Van Sant",
+      "release_year": 1997,
+      "genres": [
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Die Hard",
+      "mpaa_rating": "R",
+      "director": "John McTiernan",
+      "release_year": 1988,
+      "genres": [
+        "Thriller",
+        "Action/Adventure"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Indiana Jones and the Last Crusade",
+      "mpaa_rating": "PG-13",
+      "director": "Steven Spielberg",
+      "release_year": 1989,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Titanic",
+      "mpaa_rating": "PG-13",
+      "director": "James Cameron",
+      "release_year": 1997,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Forest Gump",
+      "mpaa_rating": "PG-13",
+      "director": "Robert Zemeckis",
+      "release_year": 1994,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The King's Speech",
+      "mpaa_rating": "R",
+      "director": "Tom Hooper",
+      "release_year": 2010,
+      "genres": [
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Captain America: The First Avenger",
+      "mpaa_rating": "PG-13",
+      "director": "Joe Johnston",
+      "release_year": 2011,
+      "genres": [
+        "Action/Adventure",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Happy Gilmore",
+      "mpaa_rating": "PG-13",
+      "director": "Dennis Dugan",
+      "release_year": 1996,
+      "genres": [
+        "Comedy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "It's a Wonderful Life",
+      "mpaa_rating": "PG",
+      "director": "Frank Capra",
+      "release_year": 1947,
+      "genres": [
+        "Drama",
+        "Family",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Braveheart",
+      "mpaa_rating": "R",
+      "director": "Mel Gibson",
+      "release_year": 1995,
+      "genres": [
+        "Drama",
+        "Action/Adventure"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Kill Bill: Vol. 1",
+      "mpaa_rating": "R",
+      "director": "Quentin Tarantino",
+      "release_year": 2003,
+      "genres": [
+        "Action/Adventure",
+        "Crime",
+        "Thriller"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "Life of Brian",
+      "mpaa_rating": "R",
+      "director": "Terry Jones",
+      "release_year": 1979,
+      "genres": [
+        "Comedy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Truman Show",
+      "mpaa_rating": "PG",
+      "director": "Peter Weir",
+      "release_year": 1998,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Science Fiction/Fantasy"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "mpaa_rating": "R",
+      "director": "Frank Darabont",
+      "release_year": 1994,
+      "genres": [
+        "Drama"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "V for Vendetta",
+      "mpaa_rating": "R",
+      "director": "James McTeigue",
+      "release_year": 2006,
+      "genres": [
+        "Drama",
+        "Action/Adventure",
+        "Science Fiction/Fantasy",
+        "Thriller"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    },
+    {
+      "title": "The Green Mile",
+      "mpaa_rating": "R",
+      "director": "Frank Darabont",
+      "release_year": 1999,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Science Fiction/Fantasy",
+        "Mystery"
+      ],
+      "total_voters": 0,
+      "average_rating": 0
+    }
+  ]
+}
