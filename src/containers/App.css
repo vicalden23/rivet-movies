@@ -1,0 +1,62 @@
+.list-container {
+  margin: auto;
+  max-width: 1000px;
+  width: 80% !important;
+}
+
+.movie-card {
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  height: 15.5rem;
+}
+
+.comments-card {
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  height: 8rem;
+  overflow-y: scroll;
+}
+
+.submit-button {
+  width: 100%;
+  background: #5db1ef;
+  text-shadow: none;
+  font-size: 12px;
+  color: white;
+  border-radius: 10px;
+  height: 2rem;
+  line-height: 1 !important;
+}
+
+.star-average {
+  font-size: 30px;
+}
+
+.star-average-numbers {
+  float: right;
+  margin-top: 13px;
+  font-size: 17px;
+}
+
+.rate-movie-title {
+  margin-bottom: 0;
+}
+
+.rate-movie {
+  font-size: 25px;
+}
+
+.filter-container {
+  margin: auto;
+  max-width: 1000px;
+  width: 80% !important;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  height: 12rem;
+}
