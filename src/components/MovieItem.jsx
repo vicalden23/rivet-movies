@@ -7,49 +7,51 @@ import {
   Col,
   FormGroup,
   FormControl,
-  Button
+  Button,
 } from 'react-bootstrap';
 import StarRatingComponent from 'react-star-rating-component';
 
 import { addComment, addRating } from '../redux/actions/movieActions';
 import CommentList from './CommentList';
 
-import '../containers/App.css'
+import '../containers/App.css';
 
 class MoveItem extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
-      rating: 0
-    }
+      rating: 0,
+    };
   }
 
   onStarClick(nextValue) {
-    this.props.addRating(this.props.movieData._id, nextValue)
+    this.props.addRating(this.props.movieData._id, nextValue);
   }
 
   onStarHover(nextValue) {
     this.setState({
-      rating: nextValue
-    })
+      rating: nextValue,
+    });
   }
 
   handleSubmit(ev) {
-    ev.preventDefault()
+    ev.preventDefault();
     this.props.addComment(this.props.movieData._id, this.comment.value);
-    this.formRef.reset()
-  };
+    this.formRef.reset();
+  }
 
   render() {
     const movie = this.props.movieData;
     return (
-      <div className='movie-card'>
+      <div className="movie-card">
         <Grid>
           <Row>
             <Col xs={6} md={4}>
               <div>
-                <h3>{movie.title}, {movie.release_year}</h3>
+                <h3>
+                  {movie.title}, {movie.release_year}
+                </h3>
                 <p>
                   {movie.mpaa_rating}
                 </p>
@@ -57,39 +59,39 @@ class MoveItem extends Component {
                   Directed by: {movie.director}
                 </p>
                 <StarRatingComponent
-                  className='star-average'
-                  name='total-average'
+                  className="star-average"
+                  name="total-average"
                   editing={false}
                   starCount={5}
                   value={movie.average_rating}
                 />
-                <p className='star-average-numbers'>
-                  {movie.average_rating.toFixed(1)} / {movie.total_voters} votes
+                <p className="star-average-numbers">
+                  {movie.average_rating.toFixed(1)}/{movie.total_voters} votes
                 </p>
               </div>
             </Col>
 
             <Col xs={6} md={4}>
-              <CommentList comments={movie.comments}/>
+              <CommentList comments={movie.comments} />
             </Col>
-            
+
             <Col xs={6} md={4}>
-              <p className='rate-movie-title'>
+              <p className="rate-movie-title">
                 Rate this Movie:
               </p>
               <StarRatingComponent
-                className='rate-movie'
-                name='rate-movie'
+                className="rate-movie"
+                name="rate-movie"
                 starCount={5}
                 value={this.state.rating}
                 onStarClick={this.onStarClick.bind(this)}
                 onStarHover={this.onStarHover.bind(this)}
               />
-              <form ref={(el) => this.formRef = el}>
+              <form ref={el => this.formRef = el}>
                 <div>
                   <FormGroup>
-                    <FormControl 
-                      componentClass='textarea'
+                    <FormControl
+                      componentClass="textarea"
                       maxLength={500}
                       inputRef={text => this.comment = text}
                     />
@@ -97,9 +99,10 @@ class MoveItem extends Component {
                 </div>
                 <div>
                   <Button
-                    className='submit-button'
-                    type='submit'
-                    onClick={this.handleSubmit.bind(this)}> 
+                    className="submit-button"
+                    type="submit"
+                    onClick={this.handleSubmit.bind(this)}
+                  >
                     Submit Comment
                   </Button>
                 </div>
@@ -113,10 +116,10 @@ class MoveItem extends Component {
   }
 }
 
-function mapStateToProps({movie}) {
+function mapStateToProps({ movie }) {
   return {
-    movie: movie
-  }
+    movie,
+  };
 }
 
-export default connect(mapStateToProps, {addComment, addRating})(MoveItem);
+export default connect(mapStateToProps, { addComment, addRating })(MoveItem);

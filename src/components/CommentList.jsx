@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CommentList = ({comments}) => {
+const CommentList = ({ comments }) => {
   return (
     <div>
       <p>
-        Comments ({comments.length}):
+        Comments ({ comments.length }):
       </p>
       <div className='comments-card'>
         {
@@ -16,11 +16,11 @@ const CommentList = ({comments}) => {
             );
           })
 
-          : ''
+            : ''
         }
       </div>
     </div>
   );
-}
+};
 
 export default CommentList;

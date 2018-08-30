@@ -4,10 +4,9 @@ import { connect } from 'react-redux';
 import { fetchMovies } from '../redux/actions/movieActions';
 import MovieItem from './MovieItem';
 
-import '../containers/App.css'
+import '../containers/App.css';
 
 class MovieList extends Component {
-
   componentDidMount() {
     this.props.fetchMovies();
   }
@@ -15,25 +14,23 @@ class MovieList extends Component {
   render() {
     const { movies } = this.props.movies;
     return (
-      <div className='list-container'>
+      <div className="list-container">
         {
-          movies.length ? movies.map((movie) => {
-            return (
-              <MovieItem movieData={movie} key={movie._id}/>
-            );
-          })
+          movies.length ? movies.map(movie => (
+            <MovieItem movieData={movie} key={movie._id} />
+          ))
 
-          : ''
+            : ''
         }
       </div>
     );
   }
 }
 
-function mapStateToProps({movies}) {
+function mapStateToProps({ movies }) {
   return {
-    movies: movies
-  }
+    movies,
+  };
 }
 
-export default connect(mapStateToProps, {fetchMovies})(MovieList);
+export default connect(mapStateToProps, { fetchMovies })(MovieList);
