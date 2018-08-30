@@ -16,7 +16,7 @@ To start the backend server:
 `yarn server`
 OR
 `node ./server-src/server.js`
-(You should see two logs, one specifies listening on a specific port, the other is to connect to the db)
+(You should see two logs, one specifies listening, the other is connecting to the db)
 
 To serve up client use:
 `yarn start`
