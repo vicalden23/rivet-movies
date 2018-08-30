@@ -58,5 +58,33 @@
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 1rem;
-  height: 12rem;
+  height: 16rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-radio-button {
+  height: 1.7rem;
+  font-size: 12px !important;
+  margin: 3px;
+  line-height: 1 !important;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.submit-filter-button {
+  width: 40%;
+  background: #FA8072;
+  text-shadow: none;
+  font-size: 12px;
+  color: white;
+  border-radius: 10px;
+  height: 2rem;
+  line-height: 1 !important;
 }
