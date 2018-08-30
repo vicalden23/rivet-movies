@@ -1,3 +1,3 @@
-export const FETCH_MOVIES = 'FETCH_MOVIES'
-export const UPDATE_MOVIE = 'UPDATE_MOVIE'
-export const FILTER_MOVIES = 'FILTER_MOVIES'
+export const FETCH_MOVIES = 'FETCH_MOVIES';
+export const UPDATE_MOVIE = 'UPDATE_MOVIE';
+export const FILTER_MOVIES = 'FILTER_MOVIES';
