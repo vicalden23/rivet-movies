@@ -29,7 +29,7 @@ router.get('/api/movies', (req, res, next) => {
       res.send('something went wrong');
       next();
     }
-    res.json(movies);
+    res.status(200).json(movies);
   });
 });
 
